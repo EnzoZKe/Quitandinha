@@ -1,3 +1,63 @@
+/*! reset geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*! parte do index*/
+
 .caro-img{
-    height: 500px;
+    height: 600px;
+}
+
+@media (max-width: 600px) {
+    .caro-img {
+      height: 250px;
+    }
+  }
+
+#Card-Img{
+    width: 250px;
+}
+
+@media (max-width: 780px  ) {
+  #Card-Img {
+    width: 150px;
+    display: flex;
+
+  }
+}
+
+
+/*! parte do cadastro de frutas*/
+
+.imagem-add{
+    display: flex;
+    max-width: 300px;
+}
+
+/*! parte da descrição dos itens*/
+
+.item-img{
+    width: 900px;
+}
+
+@media (max-width: 600px) {
+    .item-img {
+      width: 300px;
+    }
+  }
+
+/*! parte do contato*/
+
+.text-altura{
+  height: 500px;
+}
+
+@media (max-width: 600px) {
+  .text-altura {
+    height: 300px;
+  }
 }
